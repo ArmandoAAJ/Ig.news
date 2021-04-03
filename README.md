@@ -43,7 +43,7 @@ O projeto consisteem cadastrar post e posterirmente usuários autenticados e que
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/ArmandoAAJ/IGNITE_REACTJS.git && cd ig.news
+$ git clone https://github.com/ArmandoAAJ/Ig.news.git && cd ig.news
 ```
 
 **Follow the steps below**
