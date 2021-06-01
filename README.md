@@ -1,67 +1,59 @@
 <h1 align="center">
-  <img alt="ig.news" title="ig.news" width="200px"  src="public/logo.svg" />
+  <img alt="ig-news" title="ig-news" src="public/logo.svg" width="200px" />
 </h1>
 
 <h3 align="center">
-  Stay informed about the ReactJS world
+  ig-news, Frontend
 </h3>
 
-<!-- <p align="center">
-  <a href="https://www.linkedin.com/in/eliasgcf/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%23EBA417"></a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/ig.news?color=%23EBA417">
-  <a href="https://github.com/EliasGcf/ig.news/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/ig.news?color=%23EBA417"></a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/ig.news?color=%23EBA417">
-</p> -->
+<blockquote align="center">“Mude você e todo o resto mudará naturalmente”!</blockquote>
 
 <p align="center">
-  <img alt="ig.news" src="public/ig-news.png" width="100%">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
-## 👩‍💻 Sobre o projeto
+<br>
 
-Ig.news projeto criando durante o treinamento da Rocketseat Ignite trilha ReactJS.
+<p align="center">
+  <img alt="Frontend" src="public/ig-news.png" width="100%">
+</p>
 
-O projeto consisteem cadastrar post e posterirmente usuários autenticados e que possuem uma assinatura ativa possam ler os posts completos.
+## 🚀 Tecnologias
 
-## 🚀 Tecnologias usadas
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Next.js](https://nextjs.org/)
-- [ReactJS](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Prismic](https://prismic.io/)
-- [Stripe](https://stripe.com/en-br)
-- [Faunadb](https://fauna.com/)
-- [SASS](https://sass-lang.com/)
+- [Prismic CMS](https://prismic.io/)
+- [Stripe](https://stripe.com/)
+- [FaunaDB](https://fauna.com/)
 
-## 💻 Iniciando o projeto
+## 💻 Projeto
 
-### Necessário
+O projeto ig.news é um blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura.
+O blog possui um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso limitado ao conteúdo das postagens. E todos os dados necessários para se fazer verificações de assinaturas ou dados dos usuários, estão salvos no banco de dados FaunaDB.
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with yarn)_
+Essa é uma aplicação Serverless, ou seja, todo o processo que dependeria de um backend foi integrado dentro do front e seguindo o padrão da JAMStack.
+As postagens são feitas pelo painel do Prismic CMS e integradas diretamente pelo front.
 
-**Clone the project and access the folder**
+## 📥 Instalação e execução
 
-```bash
-$ git clone https://github.com/ArmandoAAJ/Ig.news.git && cd ig.news
-```
+Faça um clone desse repositório
 
-**Follow the steps below**
+### Frontend
 
-```bash
-# Install the dependencies
-$ yarn
+1. A partir da raiz do projeto, entre na pasta rodando `cd frontend`;
+2. Execulte `npm install` para instalar as dependências;
+3. Execulte `npm run start` para iniciar o servidor de desenvolvimento;
+4. Abra `http://localhost:3000` para ver o projeto no navegador.
 
-# Make a copy of '.env.example' to '.env'
-# and set with YOUR environment variables.
-$ cp .env.example .env
-
-# Start the app
-$ yarn dev
-```
-
-## 📝 Desenvolvido por
+## 👨‍💻 Desenvolvido
 
 Armando Arlan Joergensen <p></p>
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/armandoaaj/)](https://www.linkedin.com/in/armandoaaj/)
 
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
